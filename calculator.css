@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background-color: #f1e3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 25vw;
+    height: 71vh;
+    background-color: rgb(83, 83, 83);
+    border-radius: 4vmin;
+    box-shadow: 8px 8px 0 black;
+}
+
+.hero {
+    padding: 5vmin;
+}
+
+.input {
+    height: 10vh;
+    width: 100%;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 100%;
+    padding: 18px;
+    text-align: end;
+    font-size: 24px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 12px;
+    box-shadow: 5px 5px 0 inset black;
+}
+
+.button-area {
+    height: 52vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-top: 3vmin;
+}
+
+.row{
+    display: flex;
+    gap: 8px;
+}
+
+.row button {
+    border: 0;
+    outline: 0;
+    width: 53px;
+    height: 53px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 24px;
+    box-shadow: 5px 5px black;
+}
+
+.button-area .row .clear-btn {
+    background-color: orange;
+}
+
+.button-area .row .result-btn {
+    background-color: orange;
+}
+
+.button-area .row .super-btn {
+    background-color: rgb(250, 214, 147);
+}
+
+.button-area .row .zero-btn {
+    width: 115px
+}
+
